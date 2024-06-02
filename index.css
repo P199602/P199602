@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+#home{
+    background-color: oldlace !important;
+}
+
+.with-img{
+    display:flex;
+}
+.p-first{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.item-1{
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(230, 180, 89);
+}
+
+.with-img img{
+   width: 50vw;
+   height: 50vh;
+   padding: 10px;
+   border: 2px solid gray;
+   margin: 10px;
+}
+.m-Heading{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+h1 h2{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.festival img {
+    width: 40vw;
+    height: 40vh;
+    padding: 1vw;
+}
+.f-cards{
+    margin:1vw;
+    background-color:rgb(230, 180, 89);
+}
+@media screen and (max-width: 800px) {
+    .with-img {
+      display: flex;
+      flex-direction: column;
+    }
+    .festival img{
+        width: 90vw;
+    }
+    .item-3{
+      display: flex;
+      flex-direction: column;
+      margin-left:0vw;
+      margin-left: 0px;
+    }
+    .list-f a{
+        padding: 0px;
+    }
+  }
+.list-f{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.list-f a{
+    text-decoration: none;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:25px;
+    color: black;
+}
+.contain-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(230, 180, 89);
+
+}
+.footer{
+    background-color: oldlace !important
+}
+.item-3{
+    margin: 10px;
+    display:flex;
+
+}
+.item-3-card{
+    margin-left: 15vw;
+    background-color: rgb(230, 180, 89);
+}
+.card-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+.card-text{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
